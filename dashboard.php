@@ -1,7 +1,2 @@
-$grandtotal = 0;
-for ($i = 0; $i < count($total); $i++) {
-    $grandtotal += $total[$i];
-}
-
-<h3>Total Belanja</h3>
-<p>Subtotal : Rp <?= number_format($grandtotal,0,',','.') ?></p>
+<h3>Total Belanja (Sebelum Diskon)</h3>
+<p><b>Rp <?= number_format($grandtotal,0,',','.') ?></b></p>
